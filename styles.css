@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #998f8f62;
+    text-align: center;
+}
+
+header {
+    background-color: #fc8019;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+section {
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #fc8019;
+}
+
+footer {
+    background-color: #20232a;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.chat-bot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    z-index: 1000;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+#menu {
+    
+    background-size: cover; 
+    background-position: center;
+    padding: 50px;
+}
+
+section img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    background-color: #98d59969;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.sub-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    
+}
+
+.text {
+    width:auto;
+    background-color: #eddddd8d;
+    padding: 20px;
+}
